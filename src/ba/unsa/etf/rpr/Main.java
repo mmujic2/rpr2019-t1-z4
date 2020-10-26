@@ -63,8 +63,9 @@ public class Main {
                 System.out.println("Dodavanje artikla u korpu\nArtikli u marketu su: ");
                 ispisArtikala(supermarket.getArtikli());
                 System.out.println("Unesite kod artikla (unesite malo slovo \"c\" za odustajanje): ");
-                String kod = scanner.nextLine();
-                kod=scanner.nextLine();
+                scanner.skip("\n");
+                //String kod = scanner.nextLine();
+                String kod=scanner.nextLine();
                 if(!kod.equals("c")){
                     Artikl a = supermarket.izbaciArtiklSaKodom(kod);
                     if(a != null){
@@ -80,8 +81,9 @@ public class Main {
                 System.out.println("Izbacivanje artikla iz korpe\nArtikli u korpi su: ");
                 ispisArtikala(korpa.getArtikli());
                 System.out.println("Unesite kod artikla (unesite malo slovo \"c\" za odustajanje): ");
-                String kod = scanner.nextLine();
-                kod=scanner.nextLine();
+                //String kod = scanner.nextLine();
+                scanner.skip("\n");
+                String kod=scanner.nextLine();
                 if(!kod.equals("c")){
                     Artikl a = korpa.izbaciArtiklSaKodom(kod);
                     if(a != null){
