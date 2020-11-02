@@ -25,6 +25,4 @@ public class Supermarket {
     public Artikl[] getArtikli() {
         return artikli;
     }
-
-
 }

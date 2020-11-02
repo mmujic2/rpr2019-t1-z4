@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a393a8e-f4e4-4a57-bf32-dc6b4991ae1d" name="Default Changelist" comment="Uklonjena upozorenja.">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+    <list default="true" id="6a393a8e-f4e4-4a57-bf32-dc6b4991ae1d" name="Default Changelist" comment="Dodati JUnit testovi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
+  <component name="RunManager" selected="JUnit.KorpaTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -134,9 +133,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArtiklTest" />
         <item itemvalue="JUnit.SupermarketTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603716370418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dodati JUnit testovi.">
+      <created>1604250301323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604250301323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +209,8 @@
     <MESSAGE value="final commit." />
     <MESSAGE value="Ispravljen bug." />
     <MESSAGE value="Uklonjena upozorenja." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uklonjena upozorenja." />
+    <MESSAGE value="Dodati JUnit testovi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodati JUnit testovi." />
   </component>
   <component name="WindowStateProjectService">
     <state x="229" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603714551685">
@@ -214,22 +221,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="580" y="275" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1603713053362" />
-    <state width="1455" height="211" key="GridCell.Tab.0.bottom" timestamp="1604247166411">
+    <state width="1455" height="211" key="GridCell.Tab.0.bottom" timestamp="1604320144014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1455" height="211" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604247166411" />
-    <state width="1455" height="211" key="GridCell.Tab.0.center" timestamp="1604247166411">
+    <state width="1455" height="211" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604320144014" />
+    <state width="1455" height="211" key="GridCell.Tab.0.center" timestamp="1604320144014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1455" height="211" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604247166411" />
-    <state width="1455" height="211" key="GridCell.Tab.0.left" timestamp="1604247166411">
+    <state width="1455" height="211" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604320144014" />
+    <state width="1455" height="211" key="GridCell.Tab.0.left" timestamp="1604320144014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1455" height="211" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604247166411" />
-    <state width="1455" height="211" key="GridCell.Tab.0.right" timestamp="1604247166411">
+    <state width="1455" height="211" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604320144014" />
+    <state width="1455" height="211" key="GridCell.Tab.0.right" timestamp="1604320144014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1455" height="211" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604247166411" />
+    <state width="1455" height="211" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604320144014" />
     <state width="1455" height="320" key="GridCell.Tab.1.bottom" timestamp="1603717605014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -246,10 +253,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1455" height="320" key="GridCell.Tab.1.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1603717605014" />
-    <state x="367" y="275" key="Vcs.Push.Dialog.v2" timestamp="1603716377563">
+    <state x="367" y="275" key="Vcs.Push.Dialog.v2" timestamp="1604250311206">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="367" y="275" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1603716377563" />
+    <state x="367" y="275" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1604250311206" />
     <state x="521" y="425" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604242421420">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -271,7 +278,7 @@
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$KorpaTest.ic" NAME="KorpaTest Coverage Results" MODIFIED="1604246591707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604246763540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604319587584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$ArtiklTest.ic" NAME="ArtiklTest Coverage Results" MODIFIED="1604246200212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>

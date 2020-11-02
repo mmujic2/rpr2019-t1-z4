@@ -1,5 +1,6 @@
 package ba.unsa.etf.rpr;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -31,4 +32,5 @@ class SupermarketTest {
         Supermarket nekiSupermarket = new Supermarket();
         assertEquals(1000, nekiSupermarket.getArtikli().length);
     }
+
 }
